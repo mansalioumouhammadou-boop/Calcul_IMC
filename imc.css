@@ -1,0 +1,81 @@
+body{margin: 100px; 
+    padding: 50px;
+    align-items: left;
+    text-align:center;
+    background-image: url(image/2847c3745db86f87a045aa5fa901caba.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    margin-left: -15cm;
+    background-size: cover;
+    height: 100vh;
+
+    
+}
+
+h2{
+    font-size: 50px;
+    color:whitesmoke;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: -4cm;
+    background-color: blue;
+    border-radius: 23px;
+   display: inline
+   
+    
+
+}
+label{
+    display: block;
+    margin: 2px;
+    padding: 2px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #34495e;
+    font-size: 30px;
+}
+button{
+    width: 30%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color:green;
+    color: white;
+    border: none;
+    border-radius: 850px;
+    font-size: 28px;
+    cursor: pointer;
+
+}
+
+input[type="number"]{
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    font-size: 16px;
+    
+
+}
+.contenair{
+    max-width: 500px;
+    margin: auto;
+  background-color: white;
+    padding: 20px;
+    border-radius: 35px;
+   background-position: left;
+}
+.resultat{
+   margin-top: 30px;
+   padding: 20px;
+   background-color: #ecf0f1;
+   border-left: 10px solid blue;
+   border-radius: 10px;
+   border-right: 10px solid blue;
+   font-size: 18px;
+   color: #2c3e50;
+
+}
+
+                        
