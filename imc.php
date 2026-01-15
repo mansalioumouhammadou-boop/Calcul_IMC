@@ -10,16 +10,21 @@ if ($_SERVER["REQUEST_METHOD"]=="POST" ) {
 
         if ($imc < 18.5) {
             $interpretation="Insuffisance pondérable";
+            $couleur="blue";
 
         }elseif ($imc < 25) {
             $interpretation="Corpulance normale";
+            $couleur="green";
         }elseif ($imc < 30) {
             $interpretation="Surpoids";
+            $couleur="orange";
         }else {
             $interpretation="Obésité";
+            $couleur="red";
         }
     
     }
+    echo <"p style='color:$couleur;'> Interpretation :$interpretation</p>";
 }
 ?>
 
