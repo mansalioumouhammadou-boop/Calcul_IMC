@@ -1,3 +1,4 @@
+-- Active: 1766590742598@@127.0.0.1@3306
 <?php
 $imc=null;
 $interpretation="";
@@ -24,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"]=="POST" ) {
         }
     
     }
-    echo <"p style='color:$couleur;'> Interpretation :$interpretation</p>";
+    echo "<p style='color:$couleur;'> Interpretation :$interpretation</p>";
 }
 ?>
 
